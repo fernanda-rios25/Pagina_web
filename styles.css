@@ -1,0 +1,288 @@
+
+*{ 
+    margin:0px
+}
+
+.blog{ 
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    background-image: url("imagen2.jpg");
+    background-size: cover;
+    
+}
+
+.CuadroPrincipal{ 
+    
+    width:50%;
+    height: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    text-align: center;
+    font-family:monospace;
+    
+}
+
+.cuadroprincipal_boton{ 
+    background-color:#c3a6a2;
+    width: 30%;
+    height: 20%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+
+body,html{ 
+    font-size: 16px;
+    max-height: 100%;
+    margin:0;
+}
+
+.redesSociales{ 
+    background-color: #e2bcb7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes_sociales_logo{ 
+    height:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu{ 
+    background-color: #e4d3cf;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_logotipo{ 
+    height: 70px;
+}
+
+.menu_lista{ 
+    display: flex;
+    list-style: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu_lista_link{
+    text-decoration: none;
+    color:black;
+ }
+
+ .menu_lista_elementos{ 
+    margin-left: 40px;
+}
+
+.menu_lista_link:hover{ 
+    color: whitesmoke;
+    }
+    
+    .footer{ 
+        background:linear-gradient(#e2bcb7,#f1e7e4);
+        height: 100px;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .footer_texto{ 
+        font-family:"play";
+        color:black;
+        font-size: 20px;
+    }
+    
+    .Lado_Derecho{
+        border: 7px;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        align-items: flex-start;
+        
+    }
+    
+    .Lado_Derecho__img{
+        width: 20%;
+        margin-right: 15%;
+        
+    }
+    
+    .Lado_Derecho__texto{
+        width: 35%;
+        justify-content: center;
+        text-align: justify;
+        
+    }
+
+     h1,p{
+        margin: 30px;
+        text-align:center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .proyectos{ 
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .card{ 
+       /* border: 5px solid #e2bcb7;*/
+        width: 25%;
+        text-align: center;
+        margin: 0 10px;
+      
+    }
+.card__img{ 
+    width: 10px;
+    height: 10px;
+    
+}
+
+.proyectos2{ 
+    display: flex;
+    justify-content: center;
+}
+
+.card2{ 
+    /* border: 5px solid #2a2a2a;*/
+    width: 25%;
+    text-align: center;
+    margin: 0 10px;
+}
+.card__img2{ 
+width: 50%;
+}
+
+.espacio{ 
+    height: 40px;
+}
+.botones{
+    background-color:#c3a6a2;
+    width: 30%;
+    height: 10%;
+    font-family:serif;
+    font-size: 100%;
+ }
+
+.foto{ 
+     width: 20%;
+     margin-left: 5%;
+ }
+
+.contenedor1{ 
+    border:7px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+ .foto_1{
+     width: 15%;
+     margin-top: 5%;
+     border-radius: 5%;
+     
+  }
+
+  .img{ 
+      display: flex;
+      justify-content: center;
+  }
+  
+  .redesSociales_2{ 
+      height: 50px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .nombre{
+      text-align: justify;
+      
+   }
+   .contenedor_roma{
+    font-size: 20px;
+    margin: 80px;
+    text-align: center;
+    margin-bottom: 65px;
+   }
+.blog_roma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contenido_roma{
+    width: 35%;
+    padding: 30px;
+}
+.img_roma{
+    width: 20%;
+    margin-bottom: 50%;
+}
+.texto_roma{
+    text-align: justify;
+}
+
+.blog_santorini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contenido_santorini{
+    width: 35%;
+    padding: 30px;
+}
+.img_santorini{
+    width: 20%;
+    margin-bottom: 50%;
+}
+.texto_santorini{
+    text-align: justify;
+}
+
+.blog_brujas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contenido_brujas{
+    width: 35%;
+    padding: 30px;
+}
+.img_brujas{
+    width: 20%;
+    margin-bottom: 50%;
+}
+.texto_brujas{
+    text-align: justify;
+}
+
+.blog_amsterdam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contenido_amsterdam{
+    width: 35%;
+    padding: 30px;
+}
+.img_amsterdam{
+    width: 20%;
+    margin-bottom: 50%;
+}
+.texto_amsterdam{
+    text-align: justify;
+}
+
